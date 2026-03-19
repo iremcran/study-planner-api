@@ -10,7 +10,7 @@ import java.util.List;
 public class StudyController {
 
     @Autowired
-    private StudyRepository studyRepository;
+    private StudyService studyService;
 
     @GetMapping("/hello")
     public String hello() {
@@ -19,11 +19,11 @@ public class StudyController {
 
     @GetMapping("/all")
     public List<Study> getAllStudies() {
-        return studyRepository.findAll();
+        return studyService.getAllStudies();
     }
 
     @PostMapping("/add")
     public Study addStudy(@RequestBody Study study) {
-        return studyRepository.save(study);
+        return studyService.addStudy(study);
     }
 }
