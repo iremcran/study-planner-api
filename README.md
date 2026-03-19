@@ -1,21 +1,48 @@
-# Study Planner API
+# 🚀 Study Planner API
 
-This is a simple backend project built using Java Spring Boot and MySQL.
+A backend project built with Java Spring Boot that helps users manage and track their study sessions efficiently.
 
-## Features
-- Add study data
-- List all studies
-- REST API structure
-- Database connection with MySQL
+---
 
-## Technologies
+## 📌 Project Overview
+
+Students often struggle to organize and monitor their study time.  
+This project provides a simple REST API to create, store, and retrieve study sessions.
+
+---
+
+## ⚙️ Features
+
+- Add study sessions
+- Retrieve all study records
+- RESTful API structure
+- MySQL database integration
+- Layered architecture (Controller → Service → Repository)
+
+---
+
+## 🛠 Technologies
+
 - Java
 - Spring Boot
 - Spring Data JPA
 - MySQL
 - Maven
+- Git & GitHub
 
-## Endpoints
+---
+
+## 🧱 Architecture
+
+This project follows a layered architecture:
+
+- Controller → Handles HTTP requests
+- Service → Contains business logic
+- Repository → Handles database operations
+
+---
+
+## 🔗 API Endpoints
 
 ### GET /hello
 Returns a test message
@@ -24,13 +51,31 @@ Returns a test message
 Returns all study records
 
 ### POST /add
-Adds a new study
+Adds a new study record
 
-Example JSON:
-{
-  "name": "Math",
-  "hours": 3
-}
+---
 
-## Author
-Irem Ceran
+## 🤖 AI Usage
+
+AI tools (ChatGPT & Claude) were used during development for:
+
+- Code guidance
+- Architecture improvement
+- Debugging support
+
+---
+
+## 🚀 Future Improvements
+
+- DTO structure
+- Input validation
+- Global exception handling
+- Authentication (JWT)
+- Docker & CI/CD integration
+
+---
+
+## 👩‍💻 Author
+
+Irem Ceran  
+Computer Engineering Stude
