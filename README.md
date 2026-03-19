@@ -57,7 +57,7 @@ Adds a new study record
 
 ## 🤖 AI Usage
 
-AI tools (ChatGPT & Claude) were used during development for:
+AI tools (Claude) were used during development for:
 
 - Code guidance
 - Architecture improvement
